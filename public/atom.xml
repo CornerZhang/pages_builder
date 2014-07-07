@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[投资程序]]></title>
+  <link href="http://cornerzhang.github.io/atom.xml" rel="self"/>
+  <link href="http://cornerzhang.github.io/"/>
+  <updated>2014-07-07T10:45:12+08:00</updated>
+  <id>http://cornerzhang.github.io/</id>
+  <author>
+    <name><![CDATA[Corner Zhang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

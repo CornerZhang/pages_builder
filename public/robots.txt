@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://cornerzhang.github.io/sitemap.xml 
