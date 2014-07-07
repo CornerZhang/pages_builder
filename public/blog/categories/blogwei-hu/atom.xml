@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog维护 | 投资程序]]></title>
+  <link href="http://cornerzhang.github.io/blog/categories/blogwei-hu/atom.xml" rel="self"/>
+  <link href="http://cornerzhang.github.io/"/>
+  <updated>2014-07-07T11:15:00+08:00</updated>
+  <id>http://cornerzhang.github.io/</id>
+  <author>
+    <name><![CDATA[Corner Zhang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[关于架设好我的page.github.io后的第一件事]]></title>
+    <link href="http://cornerzhang.github.io/blog/2014/07/07/guan-yu-jia-she-hao-wo-de-page-dot-github-dot-iohou-de-di-%5B%3F%5D-jian-shi/"/>
+    <updated>2014-07-07T10:58:11+08:00</updated>
+    <id>http://cornerzhang.github.io/blog/2014/07/07/guan-yu-jia-she-hao-wo-de-page-dot-github-dot-iohou-de-di-[?]-jian-shi</id>
+    <content type="html"><![CDATA[<p>首先想到的是，我写出来的内容要长期保留，不如托管在github.com上，思璐很简单！</p>
+
+<p>在自己的github管理页中，再建一个空的repository，我把它命名为“My Pages Builder”.
+然后用官方的github客户端，把它pull到本地，把我本地安装的octopress的生成器目录一并拖进去，递交的时候，ignore一些输出目录和文件就可！</p>
+
+<p>然后，到哪里，只要安装好rake的环境，迁出这个repository就可以写作和提交自己的静态页了!</p>
+]]></content>
+  </entry>
+  
+</feed>

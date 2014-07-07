@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 未分类 | 投资程序]]></title>
+  <link href="http://cornerzhang.github.io/blog/categories/wei-fen-lei/atom.xml" rel="self"/>
+  <link href="http://cornerzhang.github.io/"/>
+  <updated>2014-07-07T11:15:00+08:00</updated>
+  <id>http://cornerzhang.github.io/</id>
+  <author>
+    <name><![CDATA[Corner Zhang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[感谢服务和技术提供方]]></title>
+    <link href="http://cornerzhang.github.io/blog/2014/07/07/gan-xie-fu-wu-he-ji-zhu-ti-gong-fang/"/>
+    <updated>2014-07-07T10:54:32+08:00</updated>
+    <id>http://cornerzhang.github.io/blog/2014/07/07/gan-xie-fu-wu-he-ji-zhu-ti-gong-fang</id>
+    <content type="html"><![CDATA[<p>非常感谢github.com提供的pages.github.io的静态网页服务，和octopress这个静态页生成器的提供者！！！</p>
+
+<p>本站的所有内容的发布对于以上服务的支持</p>
+]]></content>
+  </entry>
+  
+</feed>

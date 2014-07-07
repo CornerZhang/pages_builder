@@ -2,17 +2,41 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   
+  <url>
+    <loc>http://cornerzhang.github.io/blog/2014/07/07/di-%5B%3F%5D-ci-rake-deployshi-bai-de-dui-ce/</loc>
+    <lastmod>2014-07-07T11:11:38+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://cornerzhang.github.io/blog/2014/07/07/shi-yong-wo-de-octopresssheng-cheng-qi-xie-blogwen-zhang/</loc>
+    <lastmod>2014-07-07T11:06:41+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://cornerzhang.github.io/blog/2014/07/07/guan-yu-jia-she-hao-wo-de-page-dot-github-dot-iohou-de-di-%5B%3F%5D-jian-shi/</loc>
+    <lastmod>2014-07-07T10:58:11+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://cornerzhang.github.io/blog/2014/07/07/gan-xie-fu-wu-he-ji-zhu-ti-gong-fang/</loc>
+    <lastmod>2014-07-07T10:54:32+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
   
   <url>
     <loc>http://cornerzhang.github.io/blog/archives/</loc>
-    <lastmod>2014-07-07T10:45:12+08:00</lastmod>
+    <lastmod>2014-07-07T11:15:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://cornerzhang.github.io/</loc>
-    <lastmod>2014-07-07T10:45:12+08:00</lastmod>
+    <lastmod>2014-07-07T11:15:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

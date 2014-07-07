@@ -4,7 +4,7 @@
   <title><![CDATA[投资程序]]></title>
   <link href="http://cornerzhang.github.io/atom.xml" rel="self"/>
   <link href="http://cornerzhang.github.io/"/>
-  <updated>2014-07-07T10:45:12+08:00</updated>
+  <updated>2014-07-07T11:15:00+08:00</updated>
   <id>http://cornerzhang.github.io/</id>
   <author>
     <name><![CDATA[Corner Zhang]]></name>
@@ -12,5 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第一次rake Deploy失败的对策]]></title>
+    <link href="http://cornerzhang.github.io/blog/2014/07/07/di-%5B%3F%5D-ci-rake-deployshi-bai-de-dui-ce/"/>
+    <updated>2014-07-07T11:11:38+08:00</updated>
+    <id>http://cornerzhang.github.io/blog/2014/07/07/di-[?]-ci-rake-deployshi-bai-de-dui-ce</id>
+    <content type="html"><![CDATA[<p>运行 rake deploy后出现以下消息</p>
+
+<h4>Pushing generated _deploy website</h4>
+
+<p>To <a href="https://github.com/CornerZhang/cornerzhang.github.io.git">https://github.com/CornerZhang/cornerzhang.github.io.git</a></p>
+
+<p> ! [rejected]        master &ndash;> master (non-fast-forward)</p>
+
+<p>error: failed to push some refs to &lsquo;<a href="https://github.com/CornerZhang/cornerzhang.github.io.git">https://github.com/CornerZhang/cornerzhang.github.io.git</a>&rsquo;</p>
+
+<p>hint: Updates were rejected because the tip of your current branch is behind</p>
+
+<p>hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: &lsquo;git pull &hellip;&rsquo;) before pushing again.</p>
+
+<p>hint: See the &lsquo;Note about fast-forwards&rsquo; in &lsquo;git push &mdash;help&rsquo; for details.</p>
+
+<h4>Github Pages deploy complete</h4>
+
+<p>然后网上找了下，这种方式简单有效：</p>
+
+<p>1 进入_deploy/目录</p>
+
+<p>2 先执行git pull</p>
+
+<p>3 然后再执行 git push &mdash;force origin master</p>
+
+<p>4 替换原先的git push -u origin master</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用我的octopress生成器写blog文章]]></title>
+    <link href="http://cornerzhang.github.io/blog/2014/07/07/shi-yong-wo-de-octopresssheng-cheng-qi-xie-blogwen-zhang/"/>
+    <updated>2014-07-07T11:06:41+08:00</updated>
+    <id>http://cornerzhang.github.io/blog/2014/07/07/shi-yong-wo-de-octopresssheng-cheng-qi-xie-blogwen-zhang</id>
+    <content type="html"><![CDATA[<p>rake new_post[‘article name’] 生成博文框架，然后修改生成的文件即可</p>
+
+<p>rake generate 生成所有静态文件</p>
+
+<p>rake watch 检测文件变化，实时生成新内容</p>
+
+<p>rake preview 在本机4000端口生成访问内容</p>
+
+<p>rake deploy 发布所有文件</p>
+
+<h5>博文是采用markdown语法，markdown的介绍文章网上可以搜到很多。</h5>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[关于架设好我的page.github.io后的第一件事]]></title>
+    <link href="http://cornerzhang.github.io/blog/2014/07/07/guan-yu-jia-she-hao-wo-de-page-dot-github-dot-iohou-de-di-%5B%3F%5D-jian-shi/"/>
+    <updated>2014-07-07T10:58:11+08:00</updated>
+    <id>http://cornerzhang.github.io/blog/2014/07/07/guan-yu-jia-she-hao-wo-de-page-dot-github-dot-iohou-de-di-[?]-jian-shi</id>
+    <content type="html"><![CDATA[<p>首先想到的是，我写出来的内容要长期保留，不如托管在github.com上，思璐很简单！</p>
+
+<p>在自己的github管理页中，再建一个空的repository，我把它命名为“My Pages Builder”.
+然后用官方的github客户端，把它pull到本地，把我本地安装的octopress的生成器目录一并拖进去，递交的时候，ignore一些输出目录和文件就可！</p>
+
+<p>然后，到哪里，只要安装好rake的环境，迁出这个repository就可以写作和提交自己的静态页了!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[感谢服务和技术提供方]]></title>
+    <link href="http://cornerzhang.github.io/blog/2014/07/07/gan-xie-fu-wu-he-ji-zhu-ti-gong-fang/"/>
+    <updated>2014-07-07T10:54:32+08:00</updated>
+    <id>http://cornerzhang.github.io/blog/2014/07/07/gan-xie-fu-wu-he-ji-zhu-ti-gong-fang</id>
+    <content type="html"><![CDATA[<p>非常感谢github.com提供的pages.github.io的静态网页服务，和octopress这个静态页生成器的提供者！！！</p>
+
+<p>本站的所有内容的发布对于以上服务的支持</p>
+]]></content>
+  </entry>
   
 </feed>
